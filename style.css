@@ -1,0 +1,68 @@
+header {
+  width: 960px;;
+  height: 100px;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+header a img {
+  float: left;
+}
+
+header a ul {
+  margin-top: 0;
+}
+
+header section {
+  float: right;
+  margin: 0;
+}
+
+header section ul {
+  display: inline-block;
+}
+header section li {
+  display: inline-block;
+}
+
+
+hr {
+  background-image: url(img/hr-img.png); 
+  height: 20px;
+  width: 960px;
+}
+
+main.center {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; */
+  width: 960px;
+}
+
+footer hr {
+  background-image: url(img/hr-img.png); 
+  margin: 0px;
+  height: 5px;
+  width: 960px;
+}
+
+header h1 {
+  font-family: "yellowtailregular";
+  font-size: 48px;
+}
+
+div h1 {
+  font-size: 30px;
+}
+
+div h4 {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
