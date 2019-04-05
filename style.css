@@ -1,0 +1,42 @@
+* {
+  border: 1px solid red;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+header a img {
+  float: left;
+}
+
+header a ul {
+  margin-top: 0;
+}
+
+header section {
+  margin-left: 400px;
+}
+
+section.header-buttons {
+  float: right;
+  display: block;
+  height: 20px;
+}
+
+hr {
+  background-image: url(img/hr-img.png); 
+  background-attachment: fixed;
+  background-position: center;
+  height: 20px;
+}
+
+main.center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
