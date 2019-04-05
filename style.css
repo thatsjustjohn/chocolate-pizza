@@ -1,12 +1,8 @@
-* {
-  border: 1px solid red;
-}
-
 header {
-  width: 960px;
+  width: 960px;;
   height: 100px;
   margin: 0px;
-  overflow: hidden;
+  padding-top: 15px;
 }
 
 header a img {
@@ -18,25 +14,40 @@ header a ul {
 }
 
 header section {
-  margin-left: 400px;
+  float: right;
+  margin: 0;
 }
 
-section.header-buttons {
-  float: right;
-  display: block;
-  height: 20px;
+header section ul {
+  display: inline-block;
 }
+header section li {
+  display: inline-block;
+}
+
 
 hr {
   background-image: url(img/hr-img.png); 
-  background-attachment: fixed;
-  background-position: center;
   height: 20px;
+  width: 960px;
 }
 
 main.center {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  width: 960px;
+}
+
+footer hr {
+  background-image: url(img/hr-img.png); 
+  margin: 0px;
+  height: 5px;
+  width: 960px;
+}
+
+header h1 {
+  font-family: "yellowtailregular";
+  font-size: 48px;
 }
