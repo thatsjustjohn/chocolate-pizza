@@ -40,11 +40,10 @@ hr {
 }
 /* MAIN BODY */
 main.center {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center; */
   width: 900px;
+}
+main img {
+  float: right;
 }
 
 div.hero-header {
